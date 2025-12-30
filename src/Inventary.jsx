@@ -19,7 +19,7 @@ const Inventary = () => {
     <>
       <h2>Library Summary</h2>
       <p>
-        <strong>Total Book: </strong>{" "}
+        <strong>Total Book: {books.length}</strong>{" "}
       </p>
       <ul>
       {books.map((book) => (
